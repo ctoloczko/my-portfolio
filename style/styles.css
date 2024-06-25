@@ -1,0 +1,33 @@
+:root {
+  --heading-font-family: "Oswald", sans-serif;
+  --default-font-family: "Source Sans 3", sans-serif;
+  --primary-color: #262626;
+  --secondary-color: #dfdfdf;
+  --background-color: #f0f0f0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--heading-font-family);
+}
+
+.hero {
+  margin-top: 60px;
+}
+.hero-image {
+  max-width: 700px;
+}
+.hero h1 {
+  padding: 60px 0 20px 0;
+  font-size: 55px;
+  text-align: right;
+}
+
+.hero h3 {
+  font-weight: 200;
+  line-height: 1.1;
+  text-align: right;
+}
