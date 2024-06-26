@@ -80,13 +80,19 @@ p {
   padding: 0;
 }
 
+a.btn-branding:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
 .btn-branding {
   background-color: white;
   color: var(--primary-color);
   border-radius: 5px;
-  border: 0.5px solid var(--primary-color);
+  border: 0.5px solid var(--primary-color) !important;
   font-family: var(--default-font-family);
   padding: 8px 10px;
+  transition: all 100ms ease-in-out;
 }
 
 .about-description h3 {
@@ -101,6 +107,6 @@ p {
 .card a {
   text-decoration: none;
   color: var(--primary-color);
-  opacity: 0.6;
   font-weight: 500;
+  font-family: var(--default-font-family);
 }
