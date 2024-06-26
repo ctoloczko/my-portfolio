@@ -216,7 +216,8 @@ footer .fa-brands:hover {
   .skills-section {
     display: none;
   }
-  .contact-details {
+  .contact-details,
+  .about-description {
     text-align: center;
   }
   .contact-details h3 {
