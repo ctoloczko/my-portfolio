@@ -178,11 +178,13 @@ nav li.active a {
   margin-bottom: 0;
 }
 
-footer .email-link a {
-  font-size: 20px;
+footer a {
   transition: all 100ms ease-in-out;
   color: var(--primary-color);
   text-decoration: none;
+}
+footer .email-link {
+  font-size: 20px;
 }
 
 footer a:hover {
