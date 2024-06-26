@@ -77,13 +77,13 @@ p {
 }
 
 .skills-logos .row {
-    margin: 0;
+  margin: 0;
 }
 
 .skills-logos .col-md-3,
 .skills-logos .col-sm-6 {
   padding: 15px;
-
+}
 .skills-section p {
   padding: 0;
 }
@@ -117,4 +117,13 @@ a.btn-branding:hover {
   color: var(--primary-color);
   font-weight: 500;
   font-family: var(--default-font-family);
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 40px !important;
+  }
+  .skills-section {
+    display: none;
+  }
 }
