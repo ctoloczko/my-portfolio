@@ -76,6 +76,14 @@ p {
   font-size: 40px;
 }
 
+.skills-logos .row {
+    margin: 0;
+}
+
+.skills-logos .col-md-3,
+.skills-logos .col-sm-6 {
+  padding: 15px;
+
 .skills-section p {
   padding: 0;
 }
