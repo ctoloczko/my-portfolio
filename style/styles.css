@@ -191,7 +191,8 @@ footer a:hover {
   color: #b1b1b1;
 }
 
-footer .fa-brands {
+footer .fa-brands,
+.fa-regular {
   color: var(--background-color);
   background-color: var(--primary-color);
   font-size: 30px;
